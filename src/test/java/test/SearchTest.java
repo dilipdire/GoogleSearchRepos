@@ -19,9 +19,12 @@ import pageObj.SearchPage;
 public class SearchTest {
 	public static WebDriver driver;
 	
+	//set up method
+	
 	@BeforeTest
 	public void setUpEnv()
 	{
+		
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
