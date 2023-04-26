@@ -11,6 +11,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Browsers {
 
+	
+	//This is browser class
+	
 	public WebDriver driver;
 
 	public void setUp_Browser(BrowserType browser) {
